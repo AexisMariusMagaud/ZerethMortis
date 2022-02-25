@@ -3,17 +3,36 @@ body {
     overflow-y: hidden;
 }
 
+@font-face{
+    font-family: "Futura";
+    src : url("fonts/Futura Book font.ttf") format("truetype");
+}
+
 .sidenav {
+    font-family: "Futura", serif;
     height: 100%;
     width: 27%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(31, 28, 235);
+    background-color: rgb(195, 195, 204);
     overflow-x: hidden;
     padding-top: 20px;
-  }
+}
+
+.sidenav input{
+    margin-left: 20px;
+}
+
+.sidenav h1{
+    text-align: center;
+}
+
+.sidenav label{
+    font-size: 20px; 
+    margin-left: 10px;   
+}
 
 .main {
     position: relative;
@@ -36,6 +55,9 @@ body {
     width: 20px;
     height: 20px;
     background-color: red;
+    text-align: center;
+    vertical-align: center;
+    font-family: "Futura";
 }
 
 .rareContainer {
