@@ -1,0 +1,44 @@
+body {
+    overflow-y: hidden;
+    overflow-y: hidden;
+}
+
+.sidenav {
+    height: 100%;
+    width: 27%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.main {
+    position: relative;
+    margin-left: 27%; 
+}
+
+.main image{
+    position: relative;
+    width: 100%;
+}
+
+.mapBackground {
+    width: 100%;
+}
+
+.rareDiv {
+    float: left;
+    position: absolute;
+    z-index: 1000;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.rareContainer {
+    top : 0%;
+    position: absolute;
+}
